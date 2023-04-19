@@ -8,6 +8,34 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.Nav-bar{
+    margin: 1rem 4rem;
+}
+
+.Nav-bar__logo{
+    position:fixed;
+    color: #335576;
+    text-decoration: none;
+}
+
+.Nav-bar__tabs{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.Nav-bar__featured{
+    border-bottom: #DB7A4E 0.3rem solid;
+    text-decoration: none;
+    color: black;
+    padding: 1rem  0rem;
+}
+
+.Nav-bar__item{
+    text-decoration: none;
+    color: black;
+    padding: 1rem ;
+}
 
 .footer{
     background-color: #FEFAF5;
