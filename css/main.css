@@ -1,7 +1,33 @@
 
 
-
 .Hero{
     background-color: #FEFAF5;
+    display: flex;
+    margin-top: 2rem;
+}
+.Hero__right{
     text-align: left;
+    padding:  6rem 4rem 4rem 4rem;
+    color: #335576;
+    display: inline-block;
+}
+.Hero__btn{
+    color: #FEFAF5;
+    border-style: none;
+    padding: 0.7rem 3.2rem;
+    border-radius: 2rem;
+    background-color: #DB7A4E;
+}
+
+.Hero__Header{
+    font-size: 2.5rem;
+}
+.Hero__discibtion{
+    margin: 2rem auto;
+}
+.Hero__picture{
+    width: 25rem;
+    height: 20rem;
+    padding: 3rem 0rem 5rem 0rem;
+    margin-left: 3rem;
 }

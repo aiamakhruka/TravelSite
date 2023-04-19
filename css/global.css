@@ -28,13 +28,15 @@ body{
     border-bottom: #DB7A4E 0.3rem solid;
     text-decoration: none;
     color: black;
-    padding: 1rem  0rem;
+    padding-bottom: 0.7rem;
+    margin-right: 1rem ;
+
 }
 
 .Nav-bar__item{
     text-decoration: none;
     color: black;
-    padding: 1rem ;
+    margin-right: 1rem ;
 }
 
 .footer{
