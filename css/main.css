@@ -3,7 +3,7 @@
 .Hero{
     background-color: #FEFAF5;
     display: flex;
-    margin-top: 2rem;
+    padding-top: 4rem;
 }
 .Hero__right{
     text-align: left;
@@ -31,3 +31,49 @@
     padding: 3rem 0rem 5rem 0rem;
     margin-left: 3rem;
 }
+
+
+.Recommendations{
+    background-color: #FFFF;
+}
+
+.Recommendations__header{
+    color: #335576;
+    margin: 4rem auto 2rem 4rem;
+}
+
+
+.Recommendations__container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+.Recommendations__container a{
+    text-decoration: none;
+    color: #FFFF;
+}
+.Recommendations__container p{
+    padding:  1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.Recommendations__card ,.Recommendations__hawaii{
+    background-image: url(../assets/Images/hawaii.jpg);
+    width: 15rem;
+    height: 20rem;
+    margin: auto 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-size: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(169, 172, 172);
+    box-shadow: 0px 3px 3px 1px  rgb(174, 179, 183);
+}
+.Recommendations__iceland{
+    background-image: url(../assets/Images/iceland.jpg);
+}
+.Recommendations__greece{
+    background-image: url(../assets/Images/greece.jpg);
+}
+

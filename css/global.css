@@ -6,21 +6,27 @@
 body{
     background-color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
 }
 
+
 .Nav-bar{
-    margin: 1rem 4rem;
+    padding: 1rem 5rem 1rem 4rem;
+    display: flex;
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
 }
 
 .Nav-bar__logo{
-    position:fixed;
     color: #335576;
     text-decoration: none;
+    margin-right: 44rem;
 }
 
 .Nav-bar__tabs{
-    display: flex;
     justify-content: flex-end;
+    display: flex;
     list-style-type: none;
 }
 
@@ -30,7 +36,7 @@ body{
     color: black;
     padding-bottom: 0.7rem;
     margin-right: 1rem ;
-
+    justify-content: flex-end;
 }
 
 .Nav-bar__item{
@@ -41,4 +47,42 @@ body{
 
 .footer{
     background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 16rem 3rem 14rem;
+}
+
+.footer__cards{
+    text-align: left;
+ }
+.footer__headers{
+    font-size: 1.5rem;
+    color: #335576;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+.footer__min-card{
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+    padding-right: 1.2rem;
+}
+
+.footer__info{
+    color:#DB7A4E;
+    font-size: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+.footer__time-info{
+    color: #335576;
+    font-size: 0.9rem;
+}
+.footer__icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+.footer__icon{
+    width: 1.2rem;
+    height:1.3rem;
 }
