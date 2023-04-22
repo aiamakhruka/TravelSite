@@ -7,10 +7,12 @@ body{
     background-color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
+    padding: 0rem 0rem 0rem 0rem;
 }
 
 
 .Nav-bar{
+    top: 0;
     padding: 1rem 5rem 1rem 4rem;
     display: flex;
     position: fixed;
