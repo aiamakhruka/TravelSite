@@ -1,0 +1,111 @@
+.Form-page {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.Form-page__form {
+  background-color: rgba(245, 231, 224, 0.9960784314);
+  margin: 5rem;
+  padding: 1rem 2rem 3rem 2rem;
+  border-radius: 2rem;
+}
+@media (max-width: 1200px) {
+  .Form-page__form {
+    padding: 1rem 1.5rem 2rem 1.5rem;
+    margin: 4rem;
+  }
+}
+@media (max-width: 600px) {
+  .Form-page__form {
+    padding: 1rem 1rem 2rem 1rem;
+    margin: 3rem;
+  }
+}
+
+.Form-page__header {
+  font-size: 1rem;
+  padding: 3rem 3rem 1rem 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width: 1200px) {
+  .Form-page__header {
+    font-size: 0.8rem;
+    padding: 3rem 2rem 1rem 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .Form-page__header {
+    font-size: 0.6rem;
+    padding: 3rem 1rem 1rem 1rem;
+  }
+}
+
+.Form-page__headline {
+  padding-bottom: 1rem;
+  color: #335576;
+}
+
+.Form-page__wrapper {
+  flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  .Form-page__wrapper {
+    font-size: 0.8rem;
+    text-align: left;
+    padding: 1rem 2rem 1rem 0rem;
+  }
+}
+@media (max-width: 600px) {
+  .Form-page__wrapper {
+    font-size: 0.6rem;
+    padding: 0rem 1rem 1rem 0rem;
+  }
+}
+
+.Form-page__form-item {
+  flex-grow: 1;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+@media (max-width: 1200px) {
+  .Form-page__form-item {
+    padding-top: 0.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .Form-page__form-item {
+    padding-top: 0.5rem;
+  }
+}
+
+.Form-page__sub-header {
+  color: #335576;
+}
+
+.Form-page__form-item--featured {
+  padding: 1rem 0rem;
+}
+
+.Form-page__btn {
+  color: #FEFAF5;
+  border-style: none;
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  background-color: #DB7A4E;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+@media (max-width: 1200px) {
+  .Form-page__btn {
+    padding: 0.5rem 2rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .Form-page__btn {
+    padding: 0.5rem 0.5rem;
+    border-radius: 4rem;
+    font-size: 0.5rem;
+  }
+}/*# sourceMappingURL=Form.css.map */

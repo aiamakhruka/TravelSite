@@ -1,0 +1,178 @@
+@import "./_variables";
+@import "./_mixin";
+
+.Hero{
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+    width: 100%;
+}
+.Hero__left{
+    text-align: left;
+    padding:  6rem 4rem 4rem 4rem;
+    color: #335576;
+    display: inline-block;
+
+    @include tablet{
+        padding:  5rem 2.5rem 3rem 3rem;
+        width: 75%;
+    }
+    @include mobile{
+        padding:  4rem 1.5rem 2rem 2rem;
+        width: 25%;
+    }
+}
+.Hero__btn{
+    color: #FEFAF5;
+    border-style: none;
+    padding: 0.7rem 3.2rem;
+    border-radius: 2rem;
+    background-color: #DB7A4E;
+    text-decoration: none;
+
+    @include tablet{
+        padding: 0.5rem 2rem;
+        border-radius: 3rem;
+        font-size: 1rem ;
+
+    }
+    @include mobile{
+        padding: 0.5rem 0.5rem;
+        border-radius: 4rem;
+        font-size: 0.5rem ;
+
+    }
+}
+
+.Hero__btn:hover{
+    background-color: #e8b77c;
+    border: 1px solid #DB7A4E;
+}
+.Hero__Header{
+    font-size: 2.5rem;
+    
+    @include tablet{
+        font-size: 1.5rem;
+    }
+    @include mobile{
+        font-size: 1rem;
+    }
+}
+.Hero__discibtion{
+    margin: 2rem auto;
+
+    @include tablet{
+        margin: 1.5rem auto;
+        font-size: 0.8rem;
+    }
+    @include mobile{
+        margin: 1rem auto;
+        font-size: 0.5rem;
+    }
+}
+.Hero__picture{
+    width: 25rem;
+    height: 20rem;
+    padding: 3rem 5rem 5rem 0rem;
+    margin-left: 3rem;
+
+    @include tablet{
+        width: 20rem;
+        height: 15rem;
+        padding: 4rem 6rem 4rem 0rem;
+        margin-left: 2rem; 
+       }
+    @include mobile{
+        width: 13rem;
+        height: 10rem;
+        padding: 4rem 5rem 3rem 0rem;
+        margin-left: 1rem; 
+       }
+}
+
+
+.Recommendations{
+    background-color: #FFFF;
+    @include tablet{
+        padding: 2rem;
+    }
+    @include mobile{
+        justify-content: center;
+        padding: 3rem;
+
+    }
+}
+
+.Recommendations__header{
+    color: #335576;
+    margin: 4rem auto 2rem 4rem;
+}
+
+
+.Recommendations__container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+    @include tablet{
+        flex-wrap:wrap;
+    }
+    @include mobile{
+        flex-wrap:wrap;
+    }
+}
+.Recommendations__container a{
+    text-decoration: none;
+    color: #FFFF;
+}
+.Recommendations__container p{
+    padding:  1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.Recommendations__card ,.Recommendations__hawaii{
+    background-image: url(../assets/Images/hawaii.jpg);
+    width: 15rem;
+    height: 20rem;
+    margin: auto 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-size: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px  rgb(0, 0, 0, 0.2);
+
+    @include tablet{
+        margin: 1rem;
+    }
+    @include mobile{
+        margin: 1rem auto;
+    }
+}
+
+.Recommendations__card:hover{
+    border: 3px solid rgb(238, 201, 137);
+    box-shadow: 5px 10px 20px 6px  rgb(222, 203, 171);
+
+}
+.Recommendations__iceland{
+    background-image: url(../assets/Images/iceland.jpg);
+    @include tablet{
+        flex-grow: 0;
+    }
+    @include tablet{
+        flex-grow: 1;
+    }
+    
+}
+.Recommendations__greece{
+    background-image: url(../assets/Images/greece.jpg);
+    @include tablet{
+        flex-grow: 0;
+    }
+    @include tablet{
+        flex-grow: 1;
+    }
+}
+

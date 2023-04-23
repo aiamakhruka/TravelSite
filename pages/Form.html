@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/Form.css"/>
+    <title>TravelSite</title>
+</head>
+<body>
+    <header>
+        <nav class="Nav-bar">
+            <h1><a href="../index.html" class="Nav-bar__logo">Travel Site</a></h1>
+            <ul class="Nav-bar__tabs">
+                <li><a class="Nav-bar__item" href="../index.html">Home</a></li>
+                <li><a class="Nav-bar__item" href="../pages/hawaii.html">Hawaii</a></li>
+                <li><a class="Nav-bar__item" href="../pages/iceland.html">Iceland</a></li>
+                <li><a class="Nav-bar__item" href="../pages/greece.html">Greece</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="Form-page">
+        <form class="Form-page__form">
+            <div class="Form-page__header">
+            <h1 class="Form-page__headline">Get Started Welcome to our booking page!</h1>
+            <h4>To get started, please provide us with some basic informations <br>so we can help you plan your trip.</h4>
+            </div>
+            <div class="Form-page__wrapper">
+                <div class="Form-page__form-item">
+                    <h3 class="Form-page__sub-header">Contact Information:</h3>
+                    <p class="Form-page__form-item--featured">Please enter your contact information so we can get in touch with you:</p>
+                    <label>First Name:</label>
+                    <input type="text" name="destination" placeholder="First Name" required>   
+                </div>
+                <div class="Form-page__form-item">
+                    <label>Last Name:</label>
+                    <input type="text" name="destination" placeholder="Last Name" required>
+                </div>
+                <div class="Form-page__form-item">
+                    <label>Email:</label>
+                    <input type="email" name="destination" placeholder="Email" required>
+                </div>
+                    <div class="Form-page__form-item">
+                    <label>Phone Number:</label>
+                    <input type="tel" name="destination" placeholder="Phone Number" required>
+                </div>
+                <br>
+            <div class="Form-page__form-item">
+                <h3 class="Form-page__sub-header">Destination:</h3>
+                <p class="Form-page__form-item--featured">Which Destination you would like to choose:</p>
+                <label>Hawaii</label>
+                <input type="radio" name="destination" placeholder="Hawaii" required>
+                <label>Iceland</label>
+                <input type="radio" name="destination" placeholder="Iceland" required>
+                <label>Greece</label>
+                <input type="radio" name="destination" placeholder="Greece" required>
+            </div>
+            <div class="Form-page__form-item">
+                <h3 class="Form-page__sub-header">Message:</h3>
+                <p class="Form-page__form-item--featured">Please tell us a bit more about your trip and any specific requirements you have:</p>
+                <textarea placeholder="Your Message" required></textarea>
+                <button class="Form-page__btn" type="submit">Send</button>
+            </div>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__cards">
+            <h1 class="footer__headers">Contact</h1>
+            <p  class="footer__info">EMAIL</p>
+            <h3 class="footer__time-info">info@travelsite.com</h2>
+        </div>
+        <div class="footer__cards">
+            <h1 class="footer__headers">Hours</h1>
+            <div class="footer__min-card">
+            <p  class="footer__info">MONDAY - FRIDAY</p>
+            <h3 class="footer__time-info">9:00 AM - 5:00 PM</h2>
+            </div>
+            <div class="footer__min-card footer__middle">
+            <p  class="footer__info">SATURDAY</p>
+            <h3 class="footer__time-info">10:00 AM - 4:00 PM</h2>
+            </div>
+            <div class="footer__min-card">
+            <p  class="footer__info">SUNDAY</p>
+            <h3 class="footer__time-info">Closed</h2>
+            </div>
+        </div>
+        <div class="footer__cards">
+            <h1 class="footer__headers">Social</h1>
+            <div class="footer__icons">
+                <img class="footer__icon" src="../assets/Icons/icon-instagram.png">
+                <img class="footer__icon" src="../assets/Icons/icon-facebook.png">
+                <img class="footer__icon" src="../assets/Icons/icon-twitter.png">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
